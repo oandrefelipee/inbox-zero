@@ -47,7 +47,7 @@ services:
       - db
       - redis
     ports:
-      - ${WEB_PORT:-3000}:3000
+      - ${WEB_PORT:-6000}:3000
     networks:
       - inbox-zero-network
     environment:
